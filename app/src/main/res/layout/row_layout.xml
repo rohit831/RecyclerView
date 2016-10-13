@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#006699">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="OfferCart"
+        android:id="@+id/tx_project_names"
+        android:gravity=""
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Arpit"
+        android:textSize="15dp"
+        android:layout_marginTop="11dp"
+        android:id="@+id/tx_member_names"
+        android:layout_toRightOf="@+id/tx_project_names"
+        android:gravity="center_vertical">
+
+    </TextView>
+</RelativeLayout>
